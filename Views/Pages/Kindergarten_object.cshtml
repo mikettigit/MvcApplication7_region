@@ -1,0 +1,118 @@
+﻿﻿@{
+    ViewBag.Title = "Строительная компания Регион";
+}
+
+<div class="featured-project-area">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="section-head" style="padding-bottom:10px;">
+                    <h2>Детский сад<br />в городе Алушта</h2>
+                    <p>
+                        Модульный детский сад на 100 мест с производственно-
+                        хозяйственным и инженерным оборудованием и
+                        производственно-хозяйственным инвентарём, мебелью и
+                        оборудованием для Муниципального дошкольного
+                        образовательного учреждения Детский сада №5 «Солнышко»
+                        г. Алушты, расположенного по адресу: г. Алушта, ул.
+                        Симферопольская, 22.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-7" style="width:100%;">
+                <p style="margin-top:20px;">
+                    Проектируемое двухэтажное здание - детское дошкольное учреждение
+                    на 4 групповые ячейки общей вместимостью 100 человек (возраст от 3-х лет).
+                </p>
+            </div>
+        </div>
+        <div class="row" style="margin-top:20px;">
+            <div class="">
+                <div class="single-fproject">
+                    <a class="image-popup SingleLinkImage" href="/Content/img/objects/kindergarten/2.jpg">
+                        <img alt="project" src="/Content/img/objects/kindergarten/2.jpg" class="SingleImage">
+                        <h6>Общий вид</h6>
+                    </a>
+                </div>
+            </div>
+            @*<div class="col-md-4 col-sm-4">
+                <div class="single-fproject">
+                    <a class="image-popup SingleLinkImage" href="/Content/img/objects/alushta/2_2.jpg">
+                        <img alt="project" src="/Content/img/objects/alushta/2.jpg" class="SingleImage">
+                        <h6>Перспектива 1</h6>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="single-fproject">
+                    <a class="image-popup SingleLinkImage" href="/Content/img/objects/alushta/3_3.jpg">
+                        <img alt="project" src="/Content/img/objects/alushta/3.jpg" class="SingleImage">
+                        <h6>Перспектива 2</h6>
+                    </a>
+                </div>
+            </div>*@
+        </div>
+        <div class="row">
+            <div class="col-md-7" style="width:100%;">
+                <p style="margin-top:20px;">
+                    Перед строительной индустрией всегда стояла и стоит задача снижения себестоимости,
+                    сокращения сроков строительства и улучшения качества и дизайна возводимых объектов.
+                    Т.е. «как строить «элитные» дома, по цене домов «эконом» класса».
+                    Одним из решений данного вопроса является строительство домов с использованием
+                    металлокаркаса.
+                </p>
+                <p>
+                    Данная строительная технология позволяет значительно сократить  сроки строительства,
+                    так как не требуется время на высыхание и усадку бетона, т.е. мокрые процессы при этой технологии отсутствуют.
+                    Например, одна бригада монтажников возводит 9-ти этажную коробку из металлокаркаса не более чем за 20 дней.
+                </p>
+                <p>
+                    Вторым элементом ускорения строительства является несъемная опалубка, как для  наружной отделки фасада, так и для внутренней отделки стен и внутренних межкомнатных перегородок.
+                </p>
+                <p>
+                    Панели устанавливаются в готовом виде и после установки не требуют оштукатуривания,  а   только чистового шпаклевания в местах соединения.
+                    Т.е. получается, что данный способ позволяет исключить из процесса строительства такие трудоемкие процессы, как оштукатуривание, установка утеплителей и т.д., что очень существенно позволяет сократить сроки строительства.
+                </p>
+                <p>
+                    Данная технология быстровозводимого строительства стала возможной благодаря объединению специалистов СК «Регион» с партнёрами:  предприятием  « РемесленникЪ»            г. Армавир и «Стройэволюция» г. Москва. Результатом нашего сплочения стала разработка  и успешный запуск  в производство негорючих панелей из новейших материалов таких, как «Стеклофибробетон» и  «Стеклоцем»
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-7">
+                <h4 style="margin: 20px 0 20px 0;">Ход строительства</h4>
+            </div>
+			<div class="col-md-7" style="width:100%;">
+				<div class="slider multiple-items multiple-items-vert" align="center" style="width: 90%; left: 50%; margin-left: -45%; margin-top: 20px;">
+                    @{  
+                        string ContentPath = "/Content/img/objects/Kindergarten/gallery/";
+                        var picturesSearchPattern = new System.Text.RegularExpressions.Regex(@"$(?<=\.(jpg|png|jpeg|gif))", System.Text.RegularExpressions.RegexOptions.IgnoreCase);
+                        string ContentServerPath = Server.MapPath(ContentPath);
+                        var picturenames = Directory.GetFiles(ContentServerPath).Where(f => picturesSearchPattern.IsMatch(f)).OrderBy(f => f);
+                        foreach (var picturename in picturenames)
+                        {
+                            <div><img src="@(ContentPath + Path.GetFileName(picturename))" alt="" /></div>
+                        }
+                        
+                    }
+				</div>
+			</div>	
+        </div>
+
+        <div class="row">
+            <div class="col-md-7">
+                <h4 style="margin: 20px 0 20px 0;">Объект на карте</h4>
+            </div>
+            <div class="col-md-7" style="width:100%;">
+                <!--Конструктор: https://tech.yandex.ru/maps/tools/constructor/-->
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=_3IKKyoOQmH7wPc2MeQhF7fCu49_ZOPs&width=100%&height=520&lang=ru_RU&sourceType=constructor&scroll=true"></script>
+            </div>
+        </div>
+    </div>
+</div>
+
+

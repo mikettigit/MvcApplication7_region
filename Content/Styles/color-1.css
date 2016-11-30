@@ -1,0 +1,54 @@
+.phone-no .fa {
+	background: rgb(52, 152, 219);
+}
+.header-area h1 span {
+	background: rgb(52, 152, 219);
+}
+.button {
+	background: rgb(52, 152, 219);
+}
+.form input[type='submit'] {
+	background: rgb(52, 152, 219);
+}
+.section-head h2::after {
+	background: rgb(52, 152, 219);
+}
+.philosophy-list .fa {
+	background: rgb(52, 152, 219);
+}
+.philosophy-list li span::after {
+	background: rgb(52, 152, 219);
+}
+.single-service {
+	background: rgb(52, 152, 219);
+}
+.social-icons li a:hover {
+	background: rgb(52, 152, 219);
+}
+.owl-theme .owl-controls .owl-page span {
+	background: rgb(52, 152, 219);
+}
+.single-testimonial h5 {
+	color: rgb(52, 152, 219);
+}
+.footer-area a:hover {
+	color: rgb(52, 152, 219);
+}
+.button:hover {
+	background: rgb(28, 102, 151);
+}
+.form input[type='submit']:hover {
+	background: rgb(28, 102, 151);
+}
+.single-about {
+	background: rgb(206, 226, 234);
+}
+.single-about.alt {
+	background: rgb(183, 215, 227);
+}
+.contact-form .success {
+	color: rgb(255, 255, 255);
+}
+.contact-form .error {
+	color: rgb(255, 255, 255);
+}

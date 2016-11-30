@@ -1,0 +1,108 @@
+.overlay {
+	background: rgba(0, 0, 0, 0.5);
+}
+.single-fproject h6 {
+	background: rgba(0, 0, 0, 0.5);
+}
+.form {
+	background: rgba(0, 0, 0, 0.5);
+}
+.phone-no .fa {
+	color: rgb(255, 255, 255);
+}
+.header-area {
+	color: rgb(255, 255, 255);
+}
+.button {
+	color: rgb(255, 255, 255);
+}
+.button:hover {
+	color: rgb(255, 255, 255);
+}
+.button:focus {
+	color: rgb(255, 255, 255);
+}
+.form input[type='submit'] {
+	color: rgb(255, 255, 255);
+}
+.form input[type='submit']:hover {
+	color: rgb(255, 255, 255);
+}
+.header-area h1 span {
+	color: rgb(255, 255, 255);
+}
+.overlay .section-head h2 {
+	color: rgb(255, 255, 255);
+}
+.overlay .section-head p {
+	color: rgb(255, 255, 255);
+}
+.about-cta {
+	color: rgb(255, 255, 255);
+}
+.single-fproject h6 {
+	color: rgb(255, 255, 255);
+}
+.single-fproject h6 a {
+	color: rgb(255, 255, 255);
+}
+.philosophy-list .fa {
+	color: rgb(255, 255, 255);
+}
+.single-service {
+	color: rgb(255, 255, 255);
+}
+.footer-area {
+	color: rgb(255, 255, 255);
+}
+.social-icons li a {
+	color: rgb(255, 255, 255);
+}
+.footer-area a {
+	color: rgb(255, 255, 255);
+}
+.social-icons li a:hover {
+	color: rgb(255, 255, 255);
+}
+#message {
+	color: rgb(255, 255, 255);
+}
+.header-area h1 {
+	background: rgb(255, 255, 255);
+}
+.single-service h4::after {
+	background: rgb(255, 255, 255);
+}
+.phone-no {
+	color: rgb(60, 60, 60);
+}
+.slogan {
+	color: rgb(145, 145, 145);
+}
+.section-head h1 {
+	color: rgb(37, 37, 37);
+}
+.section-head p {
+	color: rgb(79, 79, 79);
+}
+.our-philosophy-area {
+	background: rgb(242, 242, 242);
+}
+.single-testimonial h5::after {
+	background: rgb(202, 202, 202);
+}
+.header-area h1 {
+	color: rgb(33, 33, 33);
+}
+.tequote {
+	color: rgb(227, 227, 227);
+}
+.single-testimonial ul li {
+	color: rgb(255, 174, 17);
+}
+.footer-area {
+	background: rgb(72, 72, 72);
+}
+label.error {
+	color: rgb(255, 0, 0);
+}
