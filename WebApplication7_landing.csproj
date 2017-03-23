@@ -265,6 +265,9 @@
     <Content Include="Views\Pages\Alushta_changes_130916.cshtml" />
     <Content Include="Views\Pages\Alushta_changes_130916_2.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Pages\Alushta_changes_271016.cshtml" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
